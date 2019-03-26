@@ -18,12 +18,15 @@ public class TestaConta {
         c1.agencia = "1264";
         c1.numero = "5432";
         
+        System.out.println ("Salso do c1: " + c1.saldo);
+        
         Conta c2 = new Conta ();
         c2.saldo = 500;
         c2.titular = "Luciano Souza";
         c2.agencia = "007";
-        c2.numero = "999";
-                    
+        c2.numero = "999";  
+        
+        System.out.println ("Salso do c2: " + c2.saldo);
         
     }
 }
